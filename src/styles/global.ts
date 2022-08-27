@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background-color: ${(p) => p.theme['gray-900']};
     color: ${(p) => p.theme['gray-300']};
+    -webkit-font-smoothing: antialiased;
   }
 
   :focus {
